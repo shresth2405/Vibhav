@@ -53,6 +53,34 @@
         "round4": "     Through Pahal, Team Vibhav is taking a step toward spreading awareness about renewable energy and empowering people to make the most of this initiative.",
         "round5": "     Apart from spreading awareness, PAHAL also fostered meaningful conversations and connections between the people and our team. The positive response from the community reinforced our belief that small initiatives can lead to significant changes. Many individuals expressed their willingness to explore the benefits of the scheme, and we provided guidance on how to apply for assistance and access resources. This engagement was a testament to the importance of on-ground awareness programs in making government initiatives truly effective. ",
         "round6": "Overall, PAHAL was a remarkable step towards community development, reinforcing the idea that awareness is the first step toward empowerment. The enthusiasm and participation of the villagers reflected their eagerness to embrace new opportunities. Team Vibhav remains committed to organizing such initiatives in the future, striving to bridge the gap between policy implementation and public awareness, ensuring that every individual can benefit from government efforts aimed at progress and prosperity."
+      },
+      {
+        "id": 4,
+        "name": "Innovision",
+        "content": "The official pre-event of Nimbus - a day filled with innovation, technology , and fun",
+        "images": [
+          "/Assets/Events/innovision.webp",
+          "/Assets/Events/innovision2.webp"
+        ],
+        "round1": "It was a day filled with inspiration and learning as Team Vibhav witnessed young minds light up with curiosity while exploring the wonders of engineering and technology. The enthusiasm and eagerness shown by the students made the experience truly rewarding.",
+        "round2": "Team Vibhav successfully hosted INNOVISION 2026 at the NIT Hamirpur OAT. The event served as a premier stage for students to present groundbreaking projects and technical builds. It effectively celebrated the ingenuity and hard work of the next generation of engineers.",
+        "round3": "The day featured live demonstrations and interactive tech games that provided a hands-on experience. Participants engaged in high-energy challenges that blended technical learning with competitive fun. This dynamic atmosphere fostered excitement and collaboration among all tech enthusiasts in attendance.",
+        "round4": "Held on 15 February at 3 PM, the event delivered a day packed with exploration and community spirit. It set a powerful stage for Nimbus, leaving a lasting impression through its innovative displays and spirited competitions. INNOVISION 2026 stood out as a major highlight of the academic calendar."
+      },
+      {
+        "id": 5,
+        "name": "Coding Contest ",
+        "content": "Team VIBHAV presents an exciting Coding Contest for all the tech enthusiasts ready to challenge their logic and creativity",
+        "images": [
+          "/Assets/Events/codingcontest.webp"
+          
+        ],
+        "round1": "Team Vibhav successfully organized a high-stakes coding contest on 21 March for tech enthusiasts. Hosted on the GeeksforGeeks platform, the event challenged participants to test their logic against the best coders. It served as a premier space where theoretical learning met real-world competitive experience.",
+        "round2": "The competition welcomed everyone from beginners to expert ninjas, providing a unique chance for all to prove their skills. Through this collaboration, participants engaged in rigorous challenges designed to spark creativity. The event emphasized growth and recognition, rewarding top performers with exciting prizes.",
+        "round3":"Starting at 4 PM, the battle of wits drew a significant crowd of ambitious programmers. The high-energy environment pushed participants to crack complex codes and climb the leaderboard. This successful collaboration strengthened the local tech culture and set a high standard for future competitions."
+
+
+
       }
 
     
