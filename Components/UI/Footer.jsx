@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import VisitorCounter from "./VisitorCounter";
+// import VisitorCounter from "./VisitorCounter";
 
 export default function Footer() {
   return (
-    <div className="h-40 flex items-end justify-center bg-none">
-      <footer className="p-4 z-10 pb-4 mx-auto text-white footer footer-center text-base-content">
+    <div className="h-20 flex items-end justify-center bg-none">
+      <footer className="p-5 z-12 pb-4 mx-auto text-white footer footer-center text-base-content">
 
         <div>
           <p className="flex items-center justify-center text-md sm:text-2xl font-chakra">
@@ -19,7 +19,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <VisitorCounter />
+        {/* <VisitorCounter /> */}
 
       </footer>
     </div>
