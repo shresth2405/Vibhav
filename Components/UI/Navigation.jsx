@@ -781,7 +781,7 @@ useEffect(() => {
             </div>
           </p>
 
-          <Link href="/" className={`menuLink ${activeRoute === "/" ? "active" : ""}`}>
+       <Link href="/" className={`menuLink ${activeRoute === "/" ? "active" : ""}`}>
             <div className="group flex items-center gap-2">
               <span
                 className={`text-xl sm:text-2xl md:text-3xl transition-opacity pb-[1px] ${activeRoute === "/" ? "opacity-100" : "opacity-0 group-hover:opacity-80"} }`}

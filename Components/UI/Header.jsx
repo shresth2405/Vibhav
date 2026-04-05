@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { RiTeamFill, RiTeamLine } from "react-icons/ri";
 import { IoHome } from "react-icons/io5";
 import { AiOutlineTeam } from "react-icons/ai";
@@ -81,12 +82,21 @@ function classNames(...classes) {
 }
 
 export default function Example() {
+  const router = useRouter();
   return (
     <Popover className="absolute  top-0 left-0 right-0 z-50 bg-black w-screen  bg-opacity-30">
       <div className="mx-auto max-w-7xl ">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start md:w-0 md:flex-1">
-            <Link href="/">
+            <Link 
+              href="/"
+              onClick={(e) => {
+                if (router.pathname === "/") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
+            >
               <span className="sr-only">Team Vibhav</span>
              
             </Link>
@@ -101,6 +111,12 @@ export default function Example() {
             <Link
               href="/"
               className=" flex  font-[Hero-Bold] text-xl px-5 font-bold text-gray-200 rounded-lg p-2 hover:bg-[#a18240] hover:text-white relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 "
+              onClick={(e) => {
+                if (router.pathname === "/") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              }}
             >
               <IoHome className="w-6 h-6 mr-1" /> Home
             </Link>
@@ -320,6 +336,12 @@ export default function Example() {
                   as={Link}
                   href="/"
                   className="text-left px-5 py-2 font-medium text-white rounded-lg hover:bg-[#dab971] mx-2"
+                  onClick={(e) => {
+                    if (router.pathname === "/") {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                  }}
                 >
                   Home
                 </Popover.Button>
